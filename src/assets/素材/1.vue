@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+<!-- import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,31 +9,14 @@ const router = createRouter({
       component: () => import('@/views/Login.vue')
     },
     {
-      path: '/Home',
+      path: '/Home/:id',
       name: 'Home',
       component: () => import('@/views/Home.vue'),
       children: [
         {
           path: 'workbench',
           name: 'workbench',
-          component: () => import('@/components/HomeCom/workbench.vue'),
-          children: [
-            {
-              path: 'recentlyVisited',
-              naem: 'recentlyVisited',
-              component: () => import('@/components/HomeCom/level3Router/recentlyVisited.vue')
-            },
-            {
-              path: 'openStore',
-              naem: 'openStore',
-              component: () => import('@/components/HomeCom/level3Router/openStore.vue')
-            },
-            {
-              path: 'allStore',
-              naem: 'allStore',
-              component: () => import('@/components/HomeCom/level3Router/allStore.vue')
-            }
-          ]
+          component: () => import('@/components/HomeCom/workbench.vue')
         },
         {
           path: 'project',
@@ -80,4 +63,4 @@ const router = createRouter({
   ]
 })
 
-export default router
+export default router -->

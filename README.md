@@ -33,3 +33,24 @@ npm run build
 ```sh
 npm run lint
 ```
+
+
+
+
+
+
+
+
+
+workbench 工作台
+    RecentlyVisited 最近访问
+    allStore 全部仓库
+    openStore 开源仓库
+project 项目
+ai
+issues 事项
+code 代码
+products 制品 
+discernment 洞察 
+knowledge 知识
+automation 自动化
